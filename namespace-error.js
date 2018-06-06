@@ -18,8 +18,7 @@ MYAPP.namespace = function (ns_string) {
   }
 };
 
-MYAPP.namespace('MYAPP.string.toCapital');
-
+// Uncaught ReferenceError: MYAPP is not defined
 MYAPP.string.toCapital = function (str) {
   return str.toUpperCase();
 }
